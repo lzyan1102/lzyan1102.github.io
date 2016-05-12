@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>lzyan的主页</title>
+		<style type="text/css">
+			#all{
+				width: 1000px;
+				margin:0 auto;
+			}
+			#nav{
+				height: 100px;
+				background-color: blue;
+			}
+			h1{
+				padding-top: 25px;
+				padding-left: 300px;
+				color: white;
+				font-size: 60px;
+			}
+			#section1{
+				height: 500px;
+				background-color: darkred;
+			}
+			#article1{
+				height: 480px;
+				width: 580px;
+				margin-top: 10px;
+				margin-left: 10px;
+				background-color: black;
+				float: left;
+				color: white;
+				font-size: 40px;
+			}
+			#aside1{
+			height: 480px;
+			width: 380px;
+			margin-top: 10px;
+			margin-right: 10px;
+			background-color: coral;
+			float:right;
+			}
+			#section2{
+				height: 500px;
+				background-color: darkgray;
+			}
+			#article2{
+				background-color:firebrick;
+				width: 480px;
+				height: 480px;
+				margin-left: 10px;
+				margin-top: 10px;	
+				float: left;		
+			}
+			#aside2{
+				width: 280px;
+				height: 480px;
+				background-color:darkseagreen;
+				margin-top: 10px;
+				margin-right: 10px;
+				float: right;
+			}
+			#footer{
+				height: 50px;
+				background-color: deeppink;
+			}
+			#jumpWeibo
+			{
+				margin-left: 50px;
+			}
+		a{
+			text-decoration: none;
+		}
+		a:hover
+		{
+			background-color:lightgrey;	
+		}
+		</style>
+        <script language="javascript" type="text/javascript">
+        function  JumpToweibo()
+        {
+        	var system ={};  
+   			var p = navigator.platform;       
+    		system.win = p.indexOf("Win") == 0;  
+  	        system.mac = p.indexOf("Mac") == 0;  
+  		    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
+   		    if(system.win||system.mac||system.xll)
+			{//pc 
+     		  window.location.href="http://www.weibo.com/u/3865190713/";  
+   			 }else
+			{//手机
+     		  window.location.href="http://m.weibo.cn/u/3865190713//";  
+   			 }
+        }
+			var system ={};  
+    		var p = navigator.platform;       
+    		system.win = p.indexOf("Win") == 0;  
+  			system.mac = p.indexOf("Mac") == 0;  
+   			system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
+    		if(system.win||system.mac||system.xll)
+			{//pc 
+ 			window.location.href="http://www.weibo.com/u/3865190713/";  
+   			 }else
+			{//手机
+     		window.location.href="http://m.weibo.cn/u/3865190713//";  
+   			 } 
+        	</script>
+	</head>
+	<body>
+		<div id="all">
+		<nav id="nav"><h1 id="top">Lance船长的主页</h1></nav>
+		<section id="section1">
+			<article id="article1"><p id="jumpWeibo"><a href="#" onclick="JumpToweibo()">Lance船长的微博</a>&nbsp;&nbsp;<input  type="button" value="跳转" onclick="JumpToweibo()"></input></p></article>
+			<aside id="aside1">aside1</aside>
+		</section>
+		<section id="section2">
+			<article id="article2">article2</article>
+			<aside id="aside2">aside2</aside>
+		</section>
+		<footer id="footer">footer</footer>
+		</div>
+	</body>
+</html>
