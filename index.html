@@ -77,6 +77,10 @@
 		{
 			background-color:lightgrey;	
 		}
+		#wx
+		{
+			margin: 10px 50px;
+		}
 		</style>
         <script language="javascript" type="text/javascript">
         function  JumpToweibo()
@@ -93,18 +97,32 @@
 			{//手机
      		  window.location.href="http://m.weibo.cn/u/3865190713//";  
    			 }
-        }
+       }
         	</script>
 	</head>
 	<body >
 		<div id="all">
 		<nav id="nav"><div id="top">Lance船长的主页</div></nav>
 		<section id="section1">
-			<article id="article1"></article>
-			<aside id="aside1"><div id="jumpWeibo"><a href="#" onclick="JumpToweibo()">Lance船长的微博</a>&nbsp;&nbsp;<input  type="button" value="跳转" onclick="JumpToweibo()"></input></div></aside>
+			<article id="article1">
+			<div>
+			<video width="580px" height="480px" controls="controls" autoplay="autoplay" loop="loop">
+         	<source src="video/gcdm.mp4" type="video/mp4"></source>
+			<source src="video/gcdm.ogv" type="video/ogg"></source>
+			<source src="video/gcdm.webm" type="video/webm"></source>
+		        当前浏览器不支持 video直接播放，请更换浏览器
+        	</video>
+			</div>
+			</article>
+			<aside id="aside1">
+			<div id="jumpWeibo"><a href="#" onclick="JumpToweibo()">Lance船长的微博</a>&nbsp;&nbsp;<input  type="button" value="跳转" onclick="JumpToweibo()"></input></div>
+			<div id="wx" ><p style="color:lavenderblush;">扫描二维码关注公众号</p> <img src="pic/wx.jpg" /> </div></aside>
 		</section>
 		<section id="section2">
-			<article id="article2">article2</article>
+			<article id="article2">article2<img src="pic/smk.jpg" width="480px" height="470px"/> </article>
+			<div>
+				
+			</div>
 			<aside id="aside2">aside2</aside>
 		</section>
 		<footer id="footer">footer</footer>
