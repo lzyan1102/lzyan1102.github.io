@@ -64,6 +64,11 @@
 				font-size: 40px;
 				margin-left: 10px;
 			}
+			#music
+			{
+				margin-top: 0px;
+				margin-left: 50px;
+			}
 		a{
 			text-decoration: none;
 		}
