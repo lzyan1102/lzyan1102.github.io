@@ -14,7 +14,7 @@
 			}
 			#section1{
 				height: 500px;
-			/*	background-color: darkred;*/
+				background-color: darkred;
 			}
 			#article1{
 				height: 480px;
@@ -36,7 +36,7 @@
 			}
 			#section2{
 				height: 500px;
-			/*	background-color: darkgray;*/
+				background-color: darkgray;
 			}
 			#article2{
 				background-color:firebrick;
