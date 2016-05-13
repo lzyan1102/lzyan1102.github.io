@@ -3,7 +3,7 @@
         	document.getElementById("img").src="pic/1.jpg";
         	//var num=Math.floor(Math.random()*4)
         	//document.getElementById("img").src="pic/"+num+".jpg";
-        	setTimeout("change(0)",5000);
+        	//setTimeout("change(0)",5000);
         }
         function change(n)
         {
