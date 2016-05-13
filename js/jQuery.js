@@ -3,7 +3,7 @@
         	document.getElementById("img").src="pic/1.jpg";
         	//var num=Math.floor(Math.random()*4)
         	//document.getElementById("img").src="pic/"+num+".jpg";
-        	//setTimeout("change(0)",5000);
+        	setTimeout("change(0)",4000);
         }
         function change(n)
         {
@@ -13,7 +13,7 @@
         	}
         		document.getElementById("img").setAttribute("src","pic/"+n+".jpg")
         		n++;
-        		setTimeout("change("+n+")",5000);
+        		setTimeout("change("+n+")",4000);
         	
         }
         function  JumpToweibo()
