@@ -1,4 +1,8 @@
-#all{
+body
+{
+	
+}
+            #all{
 				width: 1000px;
 				margin:0 auto;
 			}
@@ -66,9 +70,21 @@
 			}
 			#music
 			{
-				color:white;
+				vertical-align:text-bottom;
+				color: white;
 				margin-top: 0px;
 				margin-left: 50px;
+			}
+			#videolist
+			{
+				margin:10px auto;
+				width: 320px;
+				float: right;
+			}
+			ul>ol
+			{
+				margin-left: 20px;
+				margin-top: 10px;
 			}
 		a{
 			text-decoration: none;
