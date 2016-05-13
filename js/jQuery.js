@@ -5,7 +5,7 @@
         	/*document.getElementById("img").src="pic/0.jpg";*/
         	document.getElementById("A").setAttribute("background","pic/"+num+".jpg")
         	document.getElementById("A").style.backgroundSize="contain";
-        	setTimeout("change()",3000);
+        	setTimeout("change()",5000);
         }
         function change()
         {
@@ -14,7 +14,7 @@
         	document.getElementById("A").setAttribute("background","pic/"+num+".jpg")
         	/*document.getElementById("img").setAttribute("src","pic/"+Math.floor(Math.random()*4)+1+".jpg");*/
         	/*document.getElementById("img").setAttribute("src","pic/"+Math.floor(Math.random()*4)+1+".jpg");*/
-        	setTimeout("change()",3000);
+        	setTimeout("change()",5000);
         }
         function  JumpToweibo()
         {
