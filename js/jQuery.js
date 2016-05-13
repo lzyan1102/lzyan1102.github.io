@@ -13,7 +13,8 @@
         	{
         		n=1;
         	}
-        	document.getElementById("A").setAttribute("background","pic/"+n+".jpg")
+        	var num=Math.floor(Math.random()*4)+1;
+        	document.getElementById("A").setAttribute("background","pic/"+num+".jpg")
         	/*document.getElementById("img").setAttribute("src","pic/"+Math.floor(Math.random()*4)+1+".jpg");*/
         	n++
         		setTimeout("change(n)",3000);
