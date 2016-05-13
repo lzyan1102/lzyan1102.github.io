@@ -1,10 +1,12 @@
-        		 #all{
+
+            #all{
 				width: 1000px;
 				margin:0 auto;
 			}
 			#nav{
 				height: 100px;
-				background-color: none;
+				
+				background-color: blue;
 			}
 			#top{
 				padding-top: 25px;
