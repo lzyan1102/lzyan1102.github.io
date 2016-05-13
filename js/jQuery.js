@@ -1,9 +1,9 @@
         function load()
         {
-        	document.getElementById("img").src="pic/1.jpg";
-        	//var num=Math.floor(Math.random()*4)
-        	//document.getElementById("img").src="pic/"+num+".jpg";
-        	setTimeout("change(0)",4000);
+        	//document.getElementById("img").src="pic/1.jpg";
+        	var num=Math.floor(Math.random()*4)
+        	document.getElementById("img").src="pic/"+num+".jpg";
+        	setTimeout("change(0)",3000);
         }
         function change(n)
         {
@@ -13,7 +13,7 @@
         	}
         		document.getElementById("img").setAttribute("src","pic/"+n+".jpg")
         		n++;
-        		setTimeout("change("+n+")",4000);
+        		setTimeout("change("+n+")",3000);
         	
         }
         function  JumpToweibo()
