@@ -5,21 +5,23 @@
         	/*document.getElementById("img").src="pic/0.jpg";*/
         	document.getElementById("A").setAttribute("background","pic/"+num+".jpg")
         	document.getElementById("A").style.backgroundSize="contain";
-        	setTimeout("change()",3000);
+        	setTimeout("change(1)",3000);
         }
-        function change()
+        function change(n)
         {
-        	/*document.getElementById("A").style.backgroundImage="url(pic/"+Math.floor(Math.random()*4+1+".jpg)";
-        	document.getElementById("A").style.backgroundSize="contain";*/
-        	var num=Math.floor(Math.random()*4)+1;
-        	document.getElementById("A").setAttribute("background","pic/"+num+".jpg")
+        	if(n>4)
+        	{
+        		n=1;
+        	}
+        	document.getElementById("A").setAttribute("background","pic/"+n+".jpg")
         	/*document.getElementById("img").setAttribute("src","pic/"+Math.floor(Math.random()*4)+1+".jpg");*/
-        		setTimeout("change()",3000);
+        	n++
+        		setTimeout("change(n)",3000);
         }
         function  JumpToweibo()
         {
         	var system ={};  
-   			var p = navigator.platform;       
+   		var p = navigator.platform;       
     		system.win = p.indexOf("Win") == 0;  
   	        system.mac = p.indexOf("Mac") == 0;  
   		    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
