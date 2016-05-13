@@ -13,6 +13,7 @@
         	var num=Math.floor(Math.random()*4)+1;
         	document.getElementById("A").setAttribute("background","pic/"+num+".jpg")
         	/*document.getElementById("img").setAttribute("src","pic/"+Math.floor(Math.random()*4)+1+".jpg");*/
+        	/*document.getElementById("img").setAttribute("src","pic/"+Math.floor(Math.random()*4)+1+".jpg");*/
         	setTimeout("change()",3000);
         }
         function  JumpToweibo()
