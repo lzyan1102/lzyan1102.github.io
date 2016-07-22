@@ -5,16 +5,14 @@
 var fromUrl=document.referrer;
 if(fromUrl){
 fromUrl=fromUrl.slice(7);
-var getUrl=fromUrl.split('/');
+var getUrl=fromUrl.split('.');
 var domain=getUrl[0];
-var start=domain.indexOf('.');
-domain=domain.slice(start);
 }
 if(domain="www")
 window.open('index0.html','_self','','fase');
 else if(domain="try")
 document.location = 'index1.html'
-</script
+</script>
 	</head>
 	<body>
 	<p><b>try</b></P>	
