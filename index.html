@@ -9,9 +9,18 @@ var getUrl=fromUrl.split('.');
 var domain=getUrl[0];
 }
 if(domain="www")
-window.open('index0.html','_self','','fase');
-if(domain="try")
-window.open('index1.html','_self','','fase');
+{
+window.document.location = "./top/index-CN.html";
+}
+else if(domain="try")
+{
+window.document.location = "./top/index-EN.html";
+}
+else
+{
+window.document.location = "index1.html";
+
+}
 </script>
 	</head>
 	<body>
