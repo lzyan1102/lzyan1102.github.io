@@ -1,1 +1,1 @@
-www.lzyan1102.github.io
+lzyan1102.github.io
